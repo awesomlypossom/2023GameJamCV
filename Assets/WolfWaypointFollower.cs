@@ -49,7 +49,12 @@ public class WolfWaypointFollower : MonoBehaviour
         //rb.velocity = totalVelocity;
         rb.velocity = Vector2.SmoothDamp(rb.velocity,totalVelocity, ref smoothInputRef,dampingValue);
     }
-
+    void attackActivated()
+    {
+        wayPointPos = kidObj.transform.position;
+        totalVelocity = totalVelocity + ((wayPointPos - rb.position).normalized*wolfSpeed);
+        
+    }
 
 
     // Start is called before the first frame update
@@ -70,6 +75,10 @@ public class WolfWaypointFollower : MonoBehaviour
         if(!attackMode)
         {
             waypointInfluence();
+        }
+        else
+        {
+            attackActivated();
         }
         
 

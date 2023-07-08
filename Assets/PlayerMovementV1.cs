@@ -15,6 +15,7 @@ public class PlayerMovementV1 : MonoBehaviour
     public float walkSpeed = 10;
     public float sprintSpeed = 20;
     private Rigidbody2D rb;
+    public Vector2 controllerVect;
     private Vector2 controlVector;
     [SerializeField] GameObject kidObject;
     WaypointFollower kidObjVars;
@@ -64,6 +65,7 @@ public class PlayerMovementV1 : MonoBehaviour
         {
             controlVect[0] = controlVect[0] + 1;
         }
+        controllerVect = controlVect;
         return controlVect;
     }
     void leashInfluance()
