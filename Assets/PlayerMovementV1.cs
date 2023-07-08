@@ -19,10 +19,11 @@ public class PlayerMovementV1 : MonoBehaviour
     [SerializeField] GameObject kidObject;
     WaypointFollower kidObjVars;
     private Rigidbody2D kidObjectrb;
-
+    private Vector2 smoothInputRef;
     public Vector2 tempVar;
-
-
+    public float dampingValue = .2f;
+    public float dogPullingSpeed = 2f;
+    public float doggieDistance;
 
     void updateSpeed(Vector2 controlVect)
     { 
@@ -30,7 +31,7 @@ public class PlayerMovementV1 : MonoBehaviour
         Vector2 newVel = (controlVect * speedCurr + currVel);
         if(newVel.magnitude < maxVel)
         {
-            rb.velocity = newVel;
+            rb.velocity = Vector2.SmoothDamp(currVel,newVel, ref smoothInputRef,dampingValue);
         }
     }
     Vector2 getControls()
@@ -68,9 +69,19 @@ public class PlayerMovementV1 : MonoBehaviour
     void leashInfluance()
     {
         if(Vector2.Distance(kidObjectrb.position,rb.position) >= kidObjVars.leashLength)
-        {
-            tempVar = (kidObjectrb.position - rb.position).normalized;
-            controlVector = (controlVector + tempVar).normalized;
+        { 
+            if(Vector2.Distance(kidObjectrb.position,rb.position) >= kidObjVars.leashLength*1.5)
+            {
+                tempVar = (kidObjectrb.position - rb.position).normalized;
+                controlVector = (controlVector + tempVar*2).normalized;
+            }
+            else
+            {
+                tempVar = (kidObjectrb.position - rb.position).normalized;
+                controlVector = (controlVector + tempVar).normalized;
+                //maxVel = dogPullingSpeed;
+            }
+            
         }
 
     }
@@ -88,7 +99,7 @@ public class PlayerMovementV1 : MonoBehaviour
         controlVector = getControls();
         leashInfluance();
         updateSpeed(controlVector);
-        
+        doggieDistance = Vector2.Distance(kidObjectrb.position,rb.position);
         
         
         
