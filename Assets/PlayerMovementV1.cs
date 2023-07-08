@@ -9,22 +9,41 @@ using UnityEngine;
 
 public class PlayerMovementV1 : MonoBehaviour
 {
+    public float dogStrength = 1f;
     public float speedCurr = 3;
     public float maxVel = 10;
     public float walkSpeed = 10;
     public float sprintSpeed = 20;
-    void updateSpeed(Vector3 controlVect)
+    private Rigidbody2D rb;
+    private Vector2 controlVector;
+    [SerializeField] GameObject kidObject;
+    WaypointFollower kidObjVars;
+    private Rigidbody2D kidObjectrb;
+
+    public Vector2 tempVar;
+
+
+
+    void updateSpeed(Vector2 controlVect)
     { 
-        Vector3 currVel = GetComponent<Rigidbody2D>().velocity;
-        Vector3 newVel = (controlVect * speedCurr + currVel);
+        Vector2 currVel = rb.velocity;
+        Vector2 newVel = (controlVect * speedCurr + currVel);
         if(newVel.magnitude < maxVel)
         {
-            GetComponent<Rigidbody2D>().velocity = newVel;
+            rb.velocity = newVel;
         }
     }
-    Vector3 getControls()
-    {
-        Vector3 controlVect = new Vector3(0,0,0);
+    Vector2 getControls()
+    {    
+        if(Input.GetKey("space"))
+        {
+            maxVel = sprintSpeed;
+        }
+        else
+        {
+            maxVel = walkSpeed;
+        }
+        Vector2 controlVect = new Vector2(0,0);
         if(Input.GetKey("w"))
         {
             controlVect[1] = controlVect[1] + 1;
@@ -46,18 +65,35 @@ public class PlayerMovementV1 : MonoBehaviour
         }
         return controlVect;
     }
+    void leashInfluance()
+    {
+        if(Vector2.Distance(kidObjectrb.position,rb.position) >= kidObjVars.leashLength)
+        {
+            tempVar = (kidObjectrb.position - rb.position).normalized;
+            controlVector = (controlVector + tempVar).normalized;
+        }
 
+    }
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("helloWorld");
-        
+        rb = GetComponent<Rigidbody2D>() ;
+        kidObjectrb = kidObject.GetComponent<Rigidbody2D>();
+        kidObjVars = kidObject.GetComponent<WaypointFollower>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        updateSpeed(getControls());
+        controlVector = getControls();
+        leashInfluance();
+        updateSpeed(controlVector);
+        
+        
+        
+        
+        
+        
         if(Input.GetKey("space"))
         {
             maxVel = sprintSpeed;

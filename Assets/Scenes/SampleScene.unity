@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 345166694}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.8551784, y: 1.1181061, z: 0.12301109}
+  m_LocalPosition: {x: 1.85, y: -1.48, z: 0.12301109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -438,10 +438,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37ebabd75bca5fa4d916b2d4c087db35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogStrength: 1
   speedCurr: 3
   maxVel: 10
   walkSpeed: 10
   sprintSpeed: 20
+  kidObject: {fileID: 2138661300}
+  tempVar: {x: 0, y: 0}
 --- !u!1 &1388309816
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,7 +470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388309816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.8551784, y: 1.1181061, z: 0.12301109}
+  m_LocalPosition: {x: 8.72, y: -1.97, z: 0.12301109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1223,7 +1226,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1800287917}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.8551784, y: 1.1181061, z: 0.12301109}
+  m_LocalPosition: {x: 4.94, y: -4.79, z: 0.12301109}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7874,9 +7877,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c6946b70bfdf11428e5377641457b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  childSpeed: 2
+  totalVelocity: {x: 0, y: 0}
+  dogStreangth: 3
   waypoints:
   - {fileID: 2113045647}
+  - {fileID: 1388309816}
+  - {fileID: 1800287917}
+  - {fileID: 345166694}
+  dogObject: {fileID: 1254133556}
+  currWaypointIndex: 0
   wayPointPos: {x: 0, y: 0}
+  leashLength: 4
 --- !u!50 &2138661303
 Rigidbody2D:
   serializedVersion: 4
@@ -7890,7 +7902,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 7
+  m_LinearDrag: 30
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
