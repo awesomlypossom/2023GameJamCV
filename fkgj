@@ -1,0 +1,353 @@
+[33mcommit f5f64f9c78975f63ede8552ffe5b233086fbfaa4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: awesomlypossom <awesomlypossom@gmail.com>
+Date:   Fri Jul 7 22:37:04 2023 -0500
+
+    First commit, empty project and .gitignore
+
+.gitignore
+.vscode/settings.json
+Assets/Cainos.meta
+Assets/Cainos/Pixel Art Top Down - Basic.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AC Player.controller.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player E.anim.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Idle.anim.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player Move.anim.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player N.anim.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player S.anim.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim
+Assets/Cainos/Pixel Art Top Down - Basic/Animation/AM Player W.anim.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Changelog.txt
+Assets/Cainos/Pixel Art Top Down - Basic/Changelog.txt.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Document.pdf
+Assets/Cainos/Pixel Art Top Down - Basic/Document.pdf.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Material.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Rune Glow.mat
+Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Rune Glow.mat.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat
+Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Shadow.mat.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Sprite.mat
+Assets/Cainos/Pixel Art Top Down - Basic/Material/MT Sprite.mat.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass A.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass B.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass B.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass D.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass E.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass F.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass F.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass G.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass G.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass I.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass I.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass J.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass J.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass K.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass L.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass N.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass O.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass O.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T1.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T1.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T3.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T3.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T4.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T5.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T5.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T6.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T6.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T1.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T1.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T2.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player/PF Player.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Player/PF Player.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T2.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T2.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Altar.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Altar.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Barrel.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Barrel.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T1.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T1.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T3.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T3.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest Open.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest Open.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate Small.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate Small.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone A.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone A.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone B.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone B.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone C.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Gravestone C.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot A.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot A.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign E.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign E.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign W.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Road Sign W.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar Broken.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar Broken.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X2.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X2.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken M.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken M.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken R.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken R.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair L.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair L.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair R.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair R.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench E.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench E.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench W.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench W.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin H.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin H.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin V.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Coffin V.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Cube.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Cube.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Lantern.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Lantern.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T1.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T1.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T2.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T2.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T3.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T3.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T4.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T4.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T5.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T5.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T6.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T6.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T7.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone T7.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Well.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Well.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate Opened.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate Opened.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Wooden Gate.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Preset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Preset/Tags & Layers - Pixel Art Top Down - Basic.preset
+Assets/Cainos/Pixel Art Top Down - Basic/Preset/Tags & Layers - Pixel Art Top Down - Basic.preset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Scene.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity
+Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC All Props.unity.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity
+Assets/Cainos/Pixel Art Top Down - Basic/Scene/SC Pixel Art Top Down - Basic.unity.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Script.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs
+Assets/Cainos/Pixel Art Top Down - Basic/Script/CameraFollow.cs.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs
+Assets/Cainos/Pixel Art Top Down - Basic/Script/LayerTrigger.cs.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs
+Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs
+Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs
+Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Shader.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow Mask.shader
+Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow Mask.shader.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow.shader
+Assets/Cainos/Pixel Art Top Down - Basic/Shader/SH Sprite Shadow.shader.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Plant.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Player.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Props.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow Plant.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Shadow.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Struct.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Grass.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Stone Ground.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png
+Assets/Cainos/Pixel Art Top Down - Basic/Texture/TX Tileset Wall.png.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass.prefab
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass.prefab.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 0.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 0.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 1.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 1.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 10.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 10.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 11.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 11.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 12.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 12.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 13.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 13.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 14.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 14.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 15.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 15.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 2.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 2.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 3.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 3.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 4.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 4.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 5.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 5.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 6.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 6.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 7.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 7.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 8.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 8.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 9.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass 9.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 0.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 0.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 1.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 1.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 10.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 10.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 11.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 11.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 12.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 12.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 13.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 13.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 14.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 14.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 15.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 15.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 2.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 2.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 3.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 3.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 4.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 4.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 5.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 5.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 6.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 6.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 7.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 7.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 8.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 8.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 9.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Flower 9.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 0.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 0.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 1.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 1.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 2.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 2.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 3.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 3.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 4.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 4.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 5.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 5.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 6.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 6.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 7.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass Pavement 7.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_34.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_34.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_35.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_35.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_36.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_36.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_37.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_37.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_38.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_38.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_39.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_39.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_42.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_42.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_43.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_43.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_44.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_44.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_45.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_45.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_46.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_46.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_47.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_47.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_50.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_50.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_51.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_51.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_52.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_52.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_53.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_53.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_54.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_54.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_55.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_55.asset.meta
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_58.asset
+Assets/Cainos/Pixel Art Top Down - Basic/Tile Palette/TP Grass/TX Tileset Grass_58.asse
