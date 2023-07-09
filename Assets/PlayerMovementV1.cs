@@ -13,7 +13,22 @@ public class PlayerMovementV1 : MonoBehaviour
     public float maxVel = 10;
     public float walkSpeed = 10;
     public float sprintSpeed = 20;
-    void updateSpeed(Vector3 controlVect)
+
+
+
+    private Rigidbody2D rb;
+    public Vector2 controllerVect;
+    private Vector2 controlVector;
+    [SerializeField] GameObject kidObject;
+    WaypointFollower kidObjVars;
+    private Rigidbody2D kidObjectrb;
+    private Vector2 smoothInputRef;
+    public Vector2 tempVar;
+    public float dampingValue = .2f;
+    public float dogPullingSpeed = 2f;
+    public float doggieDistance;
+
+    void updateSpeed(Vector2 controlVect)
     { 
         Vector3 currVel = GetComponent<Rigidbody2D>().velocity;
         Vector3 newVel = (controlVect * speedCurr + currVel);
@@ -44,6 +59,7 @@ public class PlayerMovementV1 : MonoBehaviour
         {
             controlVect[0] = controlVect[0] + 1;
         }
+        controllerVect = controlVect;
         return controlVect;
     }
 
